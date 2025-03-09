@@ -36,6 +36,10 @@
     border-radius: 10px;
   }
 
+  .image img:hover {
+    transform: scale(1.02);
+  }
+
   .text {
     padding: 0 16px 24px;
     text-align: center;
@@ -48,6 +52,9 @@
     margin-bottom: 16px;
   }
   
+  .text:hover h2 {
+    color: hsl(218, 44%, 28%);
+  }
   p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
@@ -64,4 +71,9 @@
   
   footer a {
     color: hsl(228, 45%, 44%);
+  }
+
+  footer a:hover {
+    color: hsl(228, 60%, 60%);
+    text-decoration: underline;
   }
